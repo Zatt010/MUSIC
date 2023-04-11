@@ -7,7 +7,10 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr;
   }
-  
+  .center {
+    display: block;
+    margin: auto;
+  }
   #header {
     display: flex;
     flex-direction: column;
@@ -38,9 +41,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
   }
-  
+  .portadas {
+    width: 150px;
+    height: 150px;
+  }
   #right-panel {
-    background-color: #221e1d;
+    background-image: url('../Imagenes/r.png');
     color: #f7f7f7;
     padding: 50px;
     font-family: 'Times New Roman', Times, serif;
